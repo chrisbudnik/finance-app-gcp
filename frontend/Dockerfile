@@ -4,9 +4,9 @@ FROM python:3.9-slim-buster
 # Set the working directory in the container to /app
 WORKDIR /app
 
-# Copy only the necessary files
-COPY app.py .
-COPY requirements.txt .
+# Copy only the necessary files from the frontend directory
+COPY frontend/app.py .
+COPY frontend/requirements.txt .
 
 # Install required packages
 RUN pip install -r requirements.txt
