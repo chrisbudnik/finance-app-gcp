@@ -10,4 +10,4 @@ Microservice architecture: streamlit as frontend, flask/fastapi as backend.
 - fastapi/flask: backend framework to manage api calls realted to data management
 
 ## Repo Set-up
-> Warning: Althoug it is advised to keep separate repos for multiple microservices - in order to maintain simplicity, I store all the code in one repository. Also note that this repo is connected to Cloud Resource Repositories so the files can be accesed on GCP.
+Warning: Althoug it is advised to keep separate repos for multiple microservices - in order to maintain simplicity, I store all the code in one repository. Also note that this repo is connected to Cloud Resource Repositories so the files can be accesed on GCP.
